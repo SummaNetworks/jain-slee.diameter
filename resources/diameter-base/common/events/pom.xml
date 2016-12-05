@@ -14,7 +14,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.mobicents.diameter</groupId>
-			<artifactId>mobicents-diameter-mux-jar</artifactId>
+			<artifactId>restcomm-diameter-mux-jar</artifactId>
 			<version>${mobicents.diameter.mux.version}</version>
 		</dependency>
 		<dependency>
