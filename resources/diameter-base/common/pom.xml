@@ -7,13 +7,13 @@
 
 	<parent>
 		<groupId>org.mobicents.resources</groupId>
-		<artifactId>mobicents-slee-ra-diameter-base</artifactId>
+		<artifactId>restcomm-slee-ra-diameter-base</artifactId>
 		<version>8.0.1-SUMMA</version>
 	</parent>
 
-	<artifactId>mobicents-slee-ra-diameter-base-common</artifactId>
+	<artifactId>restcomm-slee-ra-diameter-base-common</artifactId>
 
-	<name>Mobicents :: Diameter Resources :: ${pom.artifactId}</name>
+	<name>Restcomm :: Diameter Resources :: ${pom.artifactId}</name>
 
 	<modules>
 		<module>events</module>
@@ -32,7 +32,7 @@
 			<dependency>
 				<groupId>org.mobicents.servers.jainslee.core</groupId>
 				<artifactId>spi</artifactId>
-				<version>${mobicents.slee.version}</version>
+				<version>${restcomm.slee.version}</version>
 			</dependency>
 		</dependencies>
 

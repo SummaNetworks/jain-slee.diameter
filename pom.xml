@@ -3,12 +3,12 @@
 
 	<parent>
 		<groupId>org.mobicents</groupId>
-		<artifactId>mobicents-parent</artifactId>
-		<version>2.27.21</version>
+		<artifactId>restcomm-parent</artifactId>
+		<version>2.27.32</version>
 	</parent>
 
 	<groupId>org.mobicents.servers.jainslee.diameter</groupId>
-	<artifactId>mobicents-slee-diameter</artifactId>
+	<artifactId>restcomm-slee-diameter</artifactId>
 	<version>8.0.1-SUMMA</version>
 
 	<packaging>pom</packaging>
@@ -29,9 +29,9 @@
 	</modules>
 
 	<scm>
-		<connection>scm:git:https://code.google.com/p/jain-slee.diameter/</connection>
-		<developerConnection>scm:git:https://code.google.com/p/jain-slee.diameter/</developerConnection>
-		<url>https://code.google.com/p/jain-slee.diameter/</url>
+		<connection>scm:git:https://github.com/RestComm/jain-slee.diameter.git</connection>
+		<developerConnection>scm:git:git@github.com:RestComm/jain-slee.diameter.git</developerConnection>
+		<url>https://github.com/RestComm/jain-slee.diameter</url>
 	</scm>
 
 	<distributionManagement>
@@ -110,9 +110,7 @@
 			</build>
 		</profile>
 	</profiles>
-
-
-
+	
 	<!-- dupe info from parent, but it's only way to retrieve the parent without checkout -->
 
 	<repositories>
@@ -123,8 +121,8 @@
 		</repository>
 
 		<repository>
-			<id>mobicents-public-repository-group</id>
-			<name>Mobicents Public Maven Repository Group</name>
+			<id>restcomm-public-repository-group</id>
+			<name>Restcomm Public Maven Repository Group</name>
 			<url>https://oss.sonatype.org/content/groups/public</url>
 			<layout>default</layout>
 			<releases>

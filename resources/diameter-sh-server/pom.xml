@@ -7,13 +7,13 @@
 
 	<parent>
 		<groupId>org.mobicents.servers.jainslee.diameter</groupId>
-		<artifactId>mobicents-slee-diameter</artifactId>
+		<artifactId>restcomm-slee-diameter</artifactId>
 		<version>8.0.1-SUMMA</version>
 		<relativePath>../..</relativePath>
 	</parent>
 
 	<groupId>org.mobicents.resources</groupId>
-	<artifactId>mobicents-slee-ra-diameter-sh-server</artifactId>
+	<artifactId>restcomm-slee-ra-diameter-sh-server</artifactId>
 
 	<modules>
 		<module>ratype</module>
@@ -25,7 +25,7 @@
 
 	<properties>
 		<!-- Documentation Related Properties -->
-		<docs.profile>mobicents</docs.profile>
+		<docs.profile>restcomm</docs.profile>
 		<docs.ra.name>Diameter Sh-Server</docs.ra.name>
 		<docs.ra.dirname>diameter-sh-server</docs.ra.dirname>
 		<docs.bookid>DIAMETER_SH_SERVER</docs.bookid>
@@ -50,23 +50,6 @@
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.sonatype.plugins</groupId>
-				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.6.2</version>
-				<extensions>true</extensions>
-				<configuration>
-					<serverId>restcomm-releases-repository</serverId>
-					<nexusUrl>https://oss.sonatype.org/</nexusUrl>
-				</configuration>
-				<executions>
-					<execution>
-						<id>deploy-to-sonatype</id>
-						<phase>none</phase>
-					</execution>
-				</executions>
-			</plugin>
-
 			<plugin>
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<groupId>org.mobicents.tools</groupId>

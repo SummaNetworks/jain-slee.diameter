@@ -5,13 +5,13 @@
 
 	<parent>
 		<groupId>org.mobicents.resources</groupId>
-		<artifactId>mobicents-slee-ra-diameter-base</artifactId>
+		<artifactId>restcomm-slee-ra-diameter-base</artifactId>
 		<version>8.0.1-SUMMA</version>
 	</parent>
 
-	<artifactId>mobicents-slee-ra-diameter-base-ra-release</artifactId>
+	<artifactId>restcomm-slee-ra-diameter-base-ra-release</artifactId>
 
-	<name>Mobicents :: Diameter Resources :: ${pom.artifactId}</name>
+	<name>Restcomm :: Diameter Resources :: ${pom.artifactId}</name>
 
 	<profiles>
 		<profile>

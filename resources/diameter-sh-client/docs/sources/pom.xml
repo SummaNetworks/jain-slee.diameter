@@ -5,11 +5,11 @@
 
 	<parent>
 		<groupId>org.mobicents.resources</groupId>
-		<artifactId>mobicents-slee-ra-diameter-sh-client-docs</artifactId>
+		<artifactId>restcomm-slee-ra-diameter-sh-client-docs</artifactId>
 		<version>8.0.1-SUMMA</version>
 	</parent>
 
-	<artifactId>mobicents-slee-ra-diameter-sh-client-docs-sources</artifactId>
+	<artifactId>restcomm-slee-ra-diameter-sh-client-docs-sources</artifactId>
 
 	<properties>
 
