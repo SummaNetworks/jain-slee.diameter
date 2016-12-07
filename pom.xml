@@ -9,7 +9,7 @@
 
 	<groupId>org.mobicents.servers.jainslee.diameter</groupId>
 	<artifactId>mobicents-slee-diameter</artifactId>
-	<version>8.0.0-SUMMA</version>
+	<version>8.0.1-SUMMA</version>
 
 	<packaging>pom</packaging>
 
